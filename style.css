@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    
+}
+.wrapper{
+    margin:150px auto;
+    width:70%;
+}
+img{
+    max-width:400px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    float:left;
+}
+.text-box p{
+    font-size: 20px;
+    margin-top: -140px;
+    
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 35px;
+    color:#78de5f;
+    text-decoration:none;
+    font-weight:700;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color:#78de5f;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px;
+
+}
+.navbar a::before{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background:black;
+    transition: .3s
+}
+.navbar a:hover::before{
+    width:100%;
+}
+.container{
+width:400px;
+height: 130px;
+border:2px solid #333;
+padding:15px 10px;
+margin-bottom: -500px;
+margin-left: 350px;
+margin-top:40px;
+border-radius: 4px;
+border-color: #78de5f;
+}
+.container h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+textarea {
+    height: 20px;
+    width:50%;
+    border:none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize:none;
+    outline:none;
+}
+input[type="submit"],button{
+    padding:1px 1px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+}
+input[type="submit"]{
+    color:#78de5f;
+    background-color: #78de5f;
+}
+button{
+    color:black;
+    font-size: 14px;
+}
+button:hover{
+    background-color:#78de5f;
+}
+
+
